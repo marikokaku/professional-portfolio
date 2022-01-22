@@ -170,4 +170,29 @@ header nav ul li a:hover {
     background-image: url("../images/date-night.png");
 }
 
+/* contact me */
+
+.contact-me {
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+    color: var(--secondary-color);
+}
+
+.contact-me nav {
+    margin: 7px 0;
+}
+
+.contact-me nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me nav ul li a {
+    color: var(--third-color);
+}
+
 
