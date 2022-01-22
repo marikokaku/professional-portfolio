@@ -68,3 +68,25 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+/* about me */
+
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img {
+    width: 15%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: var(--third-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+  }
